@@ -61,3 +61,27 @@ button:hover {
   background: #eac7b5;
   transform: scale(1.05);
 }
+
+.github-link {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  color: #333;
+  background: #FFDAC1;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.github-link:hover {
+  background: #FFCBA4;
+  color: #000;
+}
