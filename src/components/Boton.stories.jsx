@@ -1,4 +1,3 @@
-import React from 'react'
 import Boton from './Boton'
 
 export default {

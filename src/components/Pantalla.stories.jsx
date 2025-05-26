@@ -1,4 +1,3 @@
-import React from 'react'
 import Pantalla from './Pantalla'
 
 export default {
