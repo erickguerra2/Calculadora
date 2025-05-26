@@ -1,15 +1,15 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: #fdf6ec;
+  background: linear-gradient(135deg, #6b8798, #dce1e7);
 }
 
 .calculadora {
-  background: white;
+  background: #cbd7ea;
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
@@ -25,31 +25,39 @@ body {
   margin-bottom: 1rem;
   border-radius: 4px;
   height: 2.5rem;
-  overflow-x: hidden;
 }
 
 button {
   font-size: 1.2rem;
   padding: 1.15rem;
   border: none;
-  border-radius: 1px;
+  border-radius: 10px;
   background: #FFDAC1;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s ease-in-out;
   width: 25%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1),
+              -2px -2px 5px rgba(255, 255, 255, 0.6);
 }
 
 button:hover {
-  background: #c0c0c0;
+  background: #eac7b5;
+  transform: scale(1.05);
 }
 
 .equal-button {
   font-size: 1.2rem;  
   padding: 1.15rem;
   border: none;
-  border-radius: 1px;
-  /* color: black; */
-  /* background: #FFDAC1; */
+  border-radius: 10px;
+  background: #FFDAC1;
   cursor: pointer;
   width: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1),
+              -2px -2px 5px rgba(255, 255, 255, 0.6);
+}
+
+.equal-button:hover {
+  background: #eac7b5;
+  transform: scale(1.05);
 }
